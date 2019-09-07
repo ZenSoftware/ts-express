@@ -1,8 +1,8 @@
 {
   "name": "ts-express",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minimum Typescript + Express project",
+  "main": "main.js",
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/main.ts",
     "start:watch": "nodemon",
