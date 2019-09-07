@@ -1,7 +1,8 @@
-# Minimum Typescript + Express app with modern dev ergonomics
+# Typescript + Express starter app with modern dev ergonomics
 
 This is a bare minimum Node.js Express app written in Typescript with modern development ergonomics preconfigured.
 
+- Typescript type definition files configured for code completion
 - `npm run start:watch` uses **nodemon** for live reloading upon source file changes
 - **Visual Studio Code** debugger auto attaches to the debug process upon running `npm run start:watch`
 - Production builds are bundled with **webpack**
