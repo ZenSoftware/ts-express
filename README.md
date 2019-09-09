@@ -1,6 +1,6 @@
 # 💠Typescript 💎 Express 💠
 
-## Minimal starter app with modern dev ergonomics
+**Minimal starter app with modern dev ergonomics**
 
 💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
