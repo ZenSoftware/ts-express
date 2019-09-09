@@ -28,7 +28,7 @@ npm start
 ```
 
 ```bash
-# Starts nodemon for auto reloading on source changes
+# Starts and auto reloads incremental source changes
 npm run start:watch
 ```
 
