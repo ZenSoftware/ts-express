@@ -1,6 +1,8 @@
 const path = require("path");
 const { NODE_ENV = "production" } = process.env;
 
+console.log(`-- Webpack <${NODE_ENV}> build --`);
+
 module.exports = {
   entry: "./src/main.ts",
   mode: NODE_ENV,
@@ -16,14 +18,11 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        use: ['ts-loader']
+        use: ["ts-loader"]
       }
     ]
   },
   stats: {
-    warningsFilter: warning => {
-      // Critical dependency
-      return RegExp("node_modules/express/lib/view.js").test(warning);
-    }
+    warningsFilter: ["node_modules/express/lib/view.js", warning => false]
   }
 };
