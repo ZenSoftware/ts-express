@@ -12,12 +12,12 @@
     "docker:run": "docker run -p 3001:3000 -d ts-express"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "rimraf": "^3.0.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.1",
     "@types/node": "^12.7.4",
+    "rimraf": "^3.0.0",
     "ts-loader": "^6.0.4",
     "ts-node": "^8.3.0",
     "tsc-watch": "^3.0.1",
