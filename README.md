@@ -1,12 +1,16 @@
-# Typescript + Express starter app with modern dev ergonomics
+# 💠Typescript 💎 Express 💠
 
-This is a minimal Node.js Express app, written in Typescript, with modern development ergonomics preconfigured.
+## Minimal starter app with modern dev ergonomics
+
+💧🟦🟪🟦🟪🟦🟪🟦🟪🟦🟪🟦💧🟦🟪🟦🟪🟦🟪🟦🟪🟦🟪🟦💧
+
+This is a minimal "Hello world!" Node.js Express app, written in Typescript, with modern development ergonomics all preconfigured. Built to be the perfect `git clone` for tiny sandbox experiments with Node.js.
 
 - Typescript type definitions configured for code completion
-- `npm run start:watch` uses **nodemon** for live reloading upon source file changes
-- **Visual Studio Code** debugger auto attaches to the debug process upon running `npm run start:watch`
+- `npm run start:watch` for live reloading of watched source files.
+- **VS Code** debugger auto attaches to the debug process upon running `npm run start:watch`
 - Production builds are bundled with **webpack**
-- Includes a minimum `Dockerfile`
+- Includes a minimal `Dockerfile` with scripts to build and run the image
 
 ## Setup commands
 
@@ -24,7 +28,7 @@ npm start
 ```
 
 ```bash
-# Starts nodemon
+# Starts nodemon for auto reloading on watched src
 npm run start:watch
 ```
 

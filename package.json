@@ -8,7 +8,7 @@
     "start:watch": "nodemon",
     "build": "webpack",
     "docker:build": "npm run build && docker build -f ./Dockerfile -t ts-express .",
-    "docker:run": "docker run -p 3001:3001 -d ts-express"
+    "docker:run": "docker run -p 3001:3000 -d ts-express"
   },
   "keywords": [],
   "author": "",
