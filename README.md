@@ -38,11 +38,11 @@ npm run build
 ```
 
 ```bash
-# Build & Dockerize the app
+# Build the Docker image
 npm run docker:build
 ```
 
 ```bash
-# Run the docker image
+# Run the Docker image
 npm run docker:run
 ```
