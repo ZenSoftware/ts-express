@@ -6,7 +6,7 @@
 
 This is a "Hello world!" Node.js Express app, written in Typescript, with modern development ergonomics all preconfigured. Built to be the perfect `git clone` for tiny sandbox experiments with Node.js using Typescript.
 
-- Typescript type definitions configured for code completion
+- Typescript type definitions for code completion
 - `npm run start:watch` for live reloading of watched source files.
 - **VS Code** debugger auto attaches to the debug process upon running `npm run start:watch`
 - Production builds are bundled with **Webpack**
