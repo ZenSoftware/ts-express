@@ -33,7 +33,7 @@ npm run start:watch
 ```
 
 ```bash
-# Bundle with webpack
+# Bundle with Webpack
 npm run build
 ```
 
