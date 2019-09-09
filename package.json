@@ -7,12 +7,13 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/main.ts",
     "start:watch": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
-    "build": "webpack",
+    "build": "rimraf dist && webpack",
     "docker:build": "npm run build && docker build -f ./Dockerfile -t ts-express .",
     "docker:run": "docker run -p 3001:3000 -d ts-express"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "rimraf": "^3.0.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.1",
