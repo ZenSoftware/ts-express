@@ -2,7 +2,7 @@
 
 ## Minimal starter app with modern dev ergonomics
 
-💧🟦🟪🟦🟪🟦🟪🟦🟪🟦🟪🟦💧🟦🟪🟦🟪🟦🟪🟦🟪🟦🟪🟦💧
+💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
 This is a "Hello world!" Node.js Express app, written in Typescript, with modern development ergonomics all preconfigured. Built to be the perfect `git clone` for tiny sandbox experiments with Node.js using Typescript.
 
