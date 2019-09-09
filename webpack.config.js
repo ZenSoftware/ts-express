@@ -1,28 +1,23 @@
-const path = require("path");
-const { NODE_ENV = "production" } = process.env;
+const path = require('path');
+const { NODE_ENV = 'production' } = process.env;
 
 console.log(`-- Webpack <${NODE_ENV}> build --`);
 
 module.exports = {
-  entry: "./src/main.ts",
+  entry: './src/main.ts',
   mode: NODE_ENV,
-  target: "node",
+  target: 'node',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "main.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js'
   },
   resolve: {
-    extensions: [".ts", ".js"]
+    extensions: ['.ts', '.js']
   },
   module: {
-    rules: [
-      {
-        test: /\.ts$/,
-        use: ["ts-loader"]
-      }
-    ]
+    rules: [{ test: /\.ts$/, use: ['ts-loader'] }]
   },
   stats: {
-    warningsFilter: ["node_modules/express/lib/view.js", warning => false]
+    warningsFilter: ['node_modules/express/lib/view.js', warning => false]
   }
 };
