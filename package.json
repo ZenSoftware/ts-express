@@ -5,8 +5,7 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "start": "node --inspect=5858 -r ts-node/register ./src/main.ts",
-    "start:watch": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
+    "start": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
     "build": "rimraf dist && webpack",
     "docker:build": "npm run build && docker build -f ./Dockerfile -t ts-express .",
     "docker:run": "docker run -p 3001:3000 -d ts-express"
