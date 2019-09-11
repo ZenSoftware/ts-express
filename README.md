@@ -4,7 +4,7 @@
 
 💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
-This is a "Hello world!" Node.js Express app, written in Typescript, with modern development ergonomics all preconfigured. Built to be the perfect `git clone` for sandbox experiments for Node.js, Typescript and optionally Docker.
+Built to be the perfect `git clone` for sandbox experiments for Node.js, Typescript and optionally Docker. This is a "Hello world!" Node.js Express app, written in Typescript, with modern development ergonomics all preconfigured for you.
 
 |                                                                                 |    Size     |
 | ------------------------------------------------------------------------------- | :---------: |
