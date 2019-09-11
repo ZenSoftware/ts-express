@@ -8,7 +8,7 @@ This is a "Hello world!" Node.js Express app, written in Typescript, with modern
 
 |                                                                                 |    Size     |
 | ------------------------------------------------------------------------------- | :---------: |
-| Production bundle of a `main.js` "Hello World!"                                 | **557 KB**  |
+| Production bundle of `main.js` "Hello World!"                                   | **557 KB**  |
 | Containerized as a Docker image [node:12-alpine](https://hub.docker.com/_/node) | **80.9 MB** |
 
 - Typescript type definitions configured for code completion.
