@@ -27,7 +27,7 @@ npm install
 npm start
 ```
 
-## Commands
+## 🔋 Commands
 
 ```bash
 # Start and auto reloads on incremental source changes
