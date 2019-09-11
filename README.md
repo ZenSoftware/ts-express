@@ -30,7 +30,7 @@ npm start
 ## 🔋 Commands
 
 ```bash
-# Start and auto reloads on incremental source changes
+# Start and watches for incremental source changes
 npm start
 ```
 
