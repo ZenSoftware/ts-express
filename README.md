@@ -30,7 +30,7 @@ npm start
 ## 🔋 Commands
 
 ```bash
-# Start and watches for incremental source changes
+# Start and watch for incremental source changes
 npm start
 ```
 
