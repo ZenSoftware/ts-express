@@ -10,8 +10,8 @@ Built to be the perfect `git clone` for sandbox experiments with Node.js, Typesc
 - Sensible `tslint` rules preconfigured.
 - Source files watched with `tsc-watch` for efficient reloading of incremental builds.
 - For minimal footprint, production builds are configured to be bundled with **Webpack**.
-- Includes a minimal `Dockerfile` with scripts to build and run the image.
-- For fluid debugging, there is a **VS Code** workspace `settings.json` file provided with the configuration `"debug.node.autoAttach": "off"`. You can set this to `'on'` to have VS Code auto-attach the debug process upon reloading from source file changes. It makes for a smooth debugging experience. 🍰
+- A `Dockerfile` is included with scripts to build and run the image.
+- For fluid debugging, there is a **VS Code** workspace `settings.json` file provided with the configuration `"debug.node.autoAttach": "off"`. You can set this to `"on"` to have VS Code auto-attach the debug process upon source file changes. It helps to make for a smooth debugging experience. 🍰
 
 |                                                                                 |    Size     |
 | ------------------------------------------------------------------------------- | :---------: |
