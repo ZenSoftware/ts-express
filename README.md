@@ -4,7 +4,7 @@
 
 💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
-Built to be the perfect `git clone` for sandbox experiments with Node.js, Typescript and optionally Docker. This is a "Hello world!" Express app, written in Typescript, with modern development ergonomics all preconfigured for you.
+The perfect `git clone` for sandbox experiments with Node.js, Typescript and optionally Docker. This is a "Hello world!" Express app, written in Typescript, with modern development ergonomics all preconfigured for you.
 
 - Typescript type definitions configured for code completion.
 - Sensible `tslint` rules preconfigured.
