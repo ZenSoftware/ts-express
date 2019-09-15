@@ -4,8 +4,8 @@ WORKDIR /usr/src/api
 
 COPY dist/ .
 
-# Uncomment if Node app does not bundle external dependencies
-# -----------------------------------------------------------
+# Uncomment if excluding external dependencies from production build
+# ------------------------------------------------------------------
 # COPY package*.json ./
 # RUN npm ci --production
 
