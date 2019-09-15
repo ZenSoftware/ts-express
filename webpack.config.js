@@ -18,6 +18,7 @@ module.exports = {
     rules: [{ test: /\.ts$/, use: ['ts-loader'] }]
   },
   stats: {
+    // Hide noisy warnings
     warningsFilter: ['node_modules/express/lib/view.js', warning => false]
   }
 };
