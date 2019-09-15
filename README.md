@@ -1,6 +1,6 @@
 # 💠 Typescript 💎 Express 💠
 
-**Starter pack with modern dev ergonomics**
+**Lightweight starter app with modern dev ergonomics**
 
 💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
