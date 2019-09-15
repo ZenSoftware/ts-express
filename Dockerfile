@@ -4,8 +4,8 @@ WORKDIR /usr/src/api
 
 COPY dist/ .
 
-# Uncomment if excluding external dependencies from production build
-# ------------------------------------------------------------------
+# Uncomment if excluding external dependencies from production builds
+# -------------------------------------------------------------------
 # COPY package*.json ./
 # RUN npm ci --production
 
