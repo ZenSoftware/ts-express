@@ -1,13 +1,11 @@
-FROM node:12-alpine
+FROM node:16-alpine
 
 WORKDIR /usr/src/api
 
 COPY dist/ .
 
-# Uncomment if excluding external dependencies from production builds
-# -------------------------------------------------------------------
-# COPY package*.json ./
-# RUN npm ci --production
+COPY package*.json ./
+RUN npm ci --production
 
 ENV PORT=3000
 EXPOSE ${PORT}
