@@ -1,19 +1,13 @@
 services:
-  sample_postgres:
+  postgres:
     image: postgres:14
     restart: always
     environment:
       POSTGRES_USER: ZenAdmin
       POSTGRES_PASSWORD: temp
     volumes:
-      - sample_vol:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
     ports:
       - '5447:5432'
-  ts-express:
-    image: ts-express:latest
-    depends_on:
-      - sample_postgres
-    ports:
-      - '3001:3000'
 volumes:
-  sample_vol:
+  postgres:

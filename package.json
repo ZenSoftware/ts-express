@@ -8,7 +8,7 @@
     "start": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
     "build": "rimraf dist && webpack",
     "docker:build": "npm run build && docker build -f ./Dockerfile -t ts-express .",
-    "docker:run": "docker run -d --name ts-express -p 3001:3000 ts-express"
+    "docker:run": "docker run -d --name ts-express -p 3001:3000 --net ts-express_default ts-express"
   },
   "dependencies": {
     "@types/pg": "^8.6.5",
