@@ -11,11 +11,12 @@
     "docker:run": "docker run -d --name ts-express -p 3001:3000 ts-express"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "rxjs": "^7.6.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "@types/node": "^16.0.0",
+    "@types/node": "^18.0.0",
     "rimraf": "^3.0.2",
     "ts-loader": "^9.3.0",
     "ts-node": "^10.7.0",
