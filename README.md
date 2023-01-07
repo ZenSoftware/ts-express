@@ -1,4 +1,4 @@
-# 💠 Typescript 💎 Express 💠
+# 💠 TypeScript 💎 Express 💠
 
 **Minimal starter kit with modern dev ergonomics**
 
