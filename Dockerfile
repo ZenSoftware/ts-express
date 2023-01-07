@@ -1,8 +1,8 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 WORKDIR /usr/src/api
 
-COPY dist/ .
+COPY dist ./
 
 COPY package*.json ./
 RUN npm ci --production

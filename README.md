@@ -1,6 +1,6 @@
 # 💠 Typescript 💎 Express 💠
 
-**Lightweight starter app with modern dev ergonomics**
+**Minimal starter kit with modern dev ergonomics**
 
 💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧🟪🟦🟪🟦🟪🟦🟪🟦🟪💧
 
@@ -10,14 +10,10 @@ A minimal `git clone` for sandbox experiments with Node.js, Typescript and optio
 - Source files watched with `tsc-watch` for efficient reloading of incremental builds.
 - A `Dockerfile` is included with scripts to build and run the image.
 
-  |                                                                                 |     Size     |
-  | ------------------------------------------------------------------------------- | :----------: |
-  | Containerized as a Docker image [node:16-alpine](https://hub.docker.com/_/node) | **116.3 MB** |
-
 ## 🛰 Setup commands
 
 ```bash
-git clone https://github.com/ZenSoftware/ts-express.git --depth 1
+git clone https://github.com/ZenSoftware/ts-express.git
 cd ts-express
 npm install
 npm start
@@ -26,12 +22,12 @@ npm start
 ## 🔋 Commands
 
 ```bash
-# Start and watch for incremental source changes
+# Start and watch for source changes
 npm start
 ```
 
 ```bash
-# Bundle with Webpack
+# Build and output to dist directory
 npm run build
 ```
 
