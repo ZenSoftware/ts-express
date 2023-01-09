@@ -5,18 +5,22 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
+    "serve:express": "tsc-watch --onSuccess \"node --inspect=5858 dist/main.js\"",
+    "serve:www": "lite-server",
     "build": "del-cli dist && tsc",
     "docker:build": "npm run build && docker build -f ./Dockerfile -t ts-express .",
     "docker:run": "docker run -d --name ts-express -p 3001:3000 ts-express"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.13",
     "@types/node": "^18.0.0",
     "del-cli": "^5.0.0",
+    "lite-server": "^2.6.1",
     "tsc-watch": "^6.0.0",
     "typescript": "^4.6.4"
   }

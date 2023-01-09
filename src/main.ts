@@ -1,9 +1,13 @@
 import express from 'express';
+import cors from 'cors';
+import { isPrime } from './helper';
 
 const app = express();
+app.use(cors());
 
-app.get('/', (req, res) => {
-  res.json({ message: 'Hello World!' });
+app.get('/:num', (req, res) => {
+  const result = isPrime(+req.params.num);
+  res.json(result);
 });
 
 const PORT = process.env.PORT || 3000;
