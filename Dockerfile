@@ -5,7 +5,7 @@ WORKDIR /usr/src/api
 COPY dist ./
 
 COPY package*.json ./
-RUN npm ci --production
+RUN npm ci --omit=dev
 
 ENV PORT=3000
 EXPOSE ${PORT}
