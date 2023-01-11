@@ -1,4 +1,4 @@
-export function isPrime(num: number) {
+export default function isPrime(num: number) {
   const factors = [];
 
   for (let i = 1; i <= num; i++) {

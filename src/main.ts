@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { isPrime } from './helper';
+import isPrime from './is-prime';
 
 const app = express();
 app.use(cors());
